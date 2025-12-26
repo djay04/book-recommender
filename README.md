@@ -24,6 +24,9 @@ A machine learning-powered book recommendation API built with FastAPI, PostgreSQ
 - **Training data**: 80,000 ratings (80% split)
 - **Test data**: 20,000 ratings (20% split)
 
+# Architecture Diagram
+- CSV Data -> PostgreSQL -> Spark ALS -> Trained Model -> FastAPI -> JSON Response
+
 ## Local Setup
 ```bash
 # Start database
